@@ -1,0 +1,16 @@
+# Comments start with '#'
+# Commands start with '!'
+# Set the delimiter using the command '!DELIMITER = [your_delimiter]'
+# DO NOT USE BOOLEANS (false/true)! Instead use 0 for false and 1 for true.
+# Possible values for render engine: 
+#                       BLENDER_EEVEE
+#                       CYCLES
+#                       BLENDER_WORKBENCH
+# Possible values for ComputeDevice:
+#                           CPU
+#                           GPU
+#
+!DELIMITER = |
+# IP-adr    |     Camera   |  Start |  End  |   Engine   |    ComputeDevice   |  OpenGLRender   | Width  |  Height  |  Percentage | FPS  |   Samples   |  UseFileExt |                                OutputFilePath                                     |     Format  |  Overwrite  | Compression
+None        |   Camera2    |   650  |   660 |   CYCLES   |       GPU          |       0         |  1280  | 720      |      20     |  25  |       128   |    1        |   D:\Sonstiges\Programmierung\Blender\Scripts\Batch Render\renders\cam2\####      |      PNG   |    1    |    30        
+None        |   Camera1    |   400  |   410 |   CYCLES   |       GPU          |       0         |  1280  | 720      |      20     |  25  |       128   |    1        |   D:\Sonstiges\Programmierung\Blender\Scripts\Batch Render\renders\cam1\####      |      PNG   |    1    |    30        
